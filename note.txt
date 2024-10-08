@@ -1,4 +1,0 @@
-Primary Body Color: Blank;
-Secondry Color: white;
-
-Mainly using color: Red;
