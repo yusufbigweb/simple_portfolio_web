@@ -5,3 +5,5 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  alert("Hello, Welcome to yusufshaikh.in")

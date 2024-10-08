@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 /*
@@ -22,30 +23,31 @@ THIS IS SIDENAVIGATION BAR
     overflow-x: hidden;
     transition: ease-in-out 0.2s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
     color: #fff;
     display: block;
     transition: 0.5s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #ff0000;
-  }
- 
-  
-  .sidenav .closebtn {
+}
+
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-.style-span{
+}
+
+.style-span {
     font-size: 30px;
     cursor: pointer;
     background: #040b14;
@@ -61,7 +63,7 @@ THIS IS SIDENAVIGATION BAR
 }
 
 
-.img-for-back{
+.img-for-back {
     background-image: linear-gradient(rgb(0 0 0 / 45%), rgb(0 0 0 / 60%), rgb(0 0 0)), url(./img/a.jpeg);
 
     height: 100vh;
@@ -70,36 +72,41 @@ THIS IS SIDENAVIGATION BAR
     background-position: center;
     background-size: cover;
 }
-.profile-pto{
+
+.profile-pto {
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.profile-pto img{
+
+.profile-pto img {
     width: 45%;
     border-radius: 50%;
     border: 8px solid #2c2f3f;
 }
-.name-plt{
+
+.name-plt {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.name-plt h2{
+.name-plt h2 {
     color: white;
     font-size: 21px;
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 5px;
 }
-.social-icons-section{
+
+.social-icons-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.social-icons-section i{
+
+.social-icons-section i {
     color: white;
     background-color: #212431;
     margin-right: 6px;
@@ -109,23 +116,30 @@ THIS IS SIDENAVIGATION BAR
     padding-bottom: 5px;
     border-radius: 20px;
 }
-a i{
+
+a i {
     font-size: 24px;
     align-items: center;
 }
-.nav-list{
+
+.nav-list {
     padding: 30px 0 0 0;
 
 }
-.nav-list li{
+
+.nav-list li {
     list-style: none;
 }
-.nav-list a i, .nav-list a:focus i{
+
+.nav-list a i,
+.nav-list a:focus i {
     font-size: 24px;
     padding-right: 8px;
     color: #6f7180;
 }
-.nav-list a, .nav-list a:focus{
+
+.nav-list a,
+.nav-list a:focus {
     display: flex;
     align-items: center;
     padding: 12px 15px;
@@ -134,121 +148,147 @@ a i{
     font-size: 15px;
     color: #6f7180;
 }
-.active-01{
+
+.active-01 {
 
     color: red !important;
 }
-.active-02{
+
+.active-02 {
     color: white !important;
 }
-.align-cus{
+
+.align-cus {
     position: relative;
     top: 250px;
 }
+
 /* ====================================== */
 
-.main-section{
-    width: 100%;
-    height: 90vh;
-   
+.main-about {
+    margin: auto;
+    width: 80%;
 }
-.about-heading hr{
+
+.main-section {
+    margin: 30px 0;
+}
+
+.about-heading hr {
     width: 60px;
     border: 2px solid red;
 }
-.about-heading h2{
-    margin-top: 50px;
+
+.about-heading h2 {
     margin-bottom: 20px;
     font-size: 32px;
     font-weight: bold;
-    position: relative;
     color: red;
 }
-.about-heading p{
+
+.about-heading p {
     margin-bottom: 30px;
 }
-.about-heading{
+
+.about-heading {
     margin-left: 20px;
 }
-.row-01{
+
+.row-01 {
     display: flex;
+    align-items: center;
+    gap: 30px;
 }
-.row-02{
+
+.row-02 {
     display: flex;
     margin-top: 20px;
 }
-.col-02 ul{
+
+.col-02 ul {
     list-style: none;
 }
-.col-01, .col-02{
-    margin-left: 20px;
+
+.col-01 img {
+    border-radius: 30px;
 }
-.col-02 ul li{
+
+.col-02 ul li {
     padding-bottom: 30px;
 }
-.col-02 i{
+
+.col-02 i {
     color: red;
     border: 1px solid;
     margin-right: 10px;
     border-radius: 5px;
     padding: 2px;
 }
-.col-01 h3{
+
+.col-01 h3 {
     color: red;
 }
-.main-skill-section{
-    height: 60vh;
+
+.main-skill-section {
     width: 100%;
     background-color: #f5f8fd;
+    padding: 50px 0;
 }
 
-.heading-skill h3{
-    padding-top: 50px;
+.heading-skill h3 {
     margin-bottom: 20px;
     font-size: 32px;
     font-weight: bold;
-    position: relative;
     color: red;
 
 }
-.heading-skill hr{
+
+.heading-skill hr {
     width: 60px;
     border: 2px solid red;
-   
+
 }
-.progress, .progress-stacked{
+
+.progress,
+.progress-stacked {
     margin-bottom: 30px;
 }
-.heading-skill{
+
+.heading-skill {
     margin-bottom: 40px;
 }
-.proress-section h3{
+
+.proress-section h3 {
     font-size: 12px;
 }
-.main-resume-section{
+
+.main-resume-section {
     width: 100%;
-    height: auto;
+    padding: 40px 0;
 }
-.heading-resume h3{
-    padding-top: 50px;
+
+.heading-resume h3 {
     margin-bottom: 20px;
     font-size: 32px;
     font-weight: bold;
-    position: relative;
     color: red;
 }
-.heading-resume hr{
+
+.heading-resume hr {
     width: 60px;
     border: 2px solid red;
 }
-.resume-item li{
+
+.resume-item li {
     margin-bottom: 15px;
 }
-.resume-item{
+
+.resume-item {
     border-left: 1px solid red !important;
     padding-left: 20px;
 }
-.resume-title-02{
+
+.resume-title-02 {
     font-size: 16px;
     background: #e4edf9;
     padding: 5px 15px;
@@ -256,21 +296,30 @@ a i{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.resume-item h4{
+
+.resume-item h4 {
     font-size: 17px;
 }
+
 .resume-item {
     height: 210px;
 }
-.resume-title{
+
+.resume-title {
     padding-top: 20px;
     padding-bottom: 15px;
 }
-.resume-item-03{
+
+.resume-item-03 {
     height: 350px;
 }
 
-.main-section-service h3{
+.main-resume-container {
+    width: 80%;
+    margin: auto;
+}
+
+.main-section-service h3 {
     padding-top: 50px;
     margin-bottom: 20px;
     font-size: 32px;
@@ -278,50 +327,75 @@ a i{
     position: relative;
     color: red;
 }
-.main-section-service hr{
+
+.main-section-service hr {
     width: 60px;
     border: 2px solid red;
 }
 
-.main-service{
+.main-service {
     background-color: #f5f8fd;
     margin-top: 50px;
 }
-.icon-rows-boxs{
+
+.main-services-container {
+    width: 80%;
+    margin: auto;
+}
+
+.icon-rows-boxs {
     display: flex;
 }
-.icon-col-boxs i{
+
+.icon-col-boxs-1 {
     background: red;
-    color: white;
-    padding: 6px 10px;
-    font-size: 25px;
-    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+
 }
 
 
-  @media screen and (max-width: 800px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+@media screen and (max-width: 1080px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 
 
-    .row-01{
+    .row-01 {
         flex-direction: column;
     }
 
-    .row-02{
+    .row-02 {
         flex-direction: column;
     }
-    .col-01 img{
+
+    .col-01 img {
         width: 100%;
         margin-bottom: 20px;
     }
-    .main-section{
+
+    .main-section {
         height: auto;
         margin-bottom: 15px;
     }
-    .main-skill-section{
+
+    .main-skill-section {
         height: auto;
     }
+
+
     .resume-item::before {
         content: '';
         position: absolute;
@@ -332,7 +406,8 @@ a i{
         border: 2px solid red;
         border-radius: 50px;
     }
+
     .resume-item {
         height: auto;
     }
-  }
+}
